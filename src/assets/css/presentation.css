@@ -1,0 +1,73 @@
+.background {
+    height: 100vw;
+    height: auto;
+    background: linear-gradient(to top, #000, rgba(0, 0, 0, .4)), url("../images//wallpaper.png") no-repeat;
+    background-size: cover;
+}
+.presentation{
+    display: flex;
+    flex-direction: column;
+}
+.pres-top{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.pres-top p{
+    color: #00bfe0;
+    padding-top: 50px;
+    font-size: 14px;
+}
+.pres-top h1{
+    color: #ddd;
+    font-size: 52px;
+    margin: 20px 0;
+}
+.pres-top a{
+    width: 200px;
+    text-decoration: none;
+    color: #00bfe0;
+    border: 2px solid #00bfe0;
+    padding: 15px;
+    text-align: center;
+    transition: ease 200ms;
+}
+.pres-top a:hover{
+    box-shadow: 0 0 15px #00bfe0;
+}
+.pres-bottom{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pres-bottom .card{
+    width: 300px;
+    height: 280px;
+    background: linear-gradient(to top, #050505, #151515);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+.pres-bottom .card:hover{
+    border: 2px solid #00bfe0;
+    padding: 0 18px;
+}
+.pres-bottom ion-icon{
+    color: #00bfe0;
+}
+.pres-bottom h1,
+.pres-bottom p{
+    color: #ddd;
+}
+.pres-bottom h1::after{
+    content: "";
+    width: 40px;
+    height: 2px;
+    background: #00bfe0;
+    display: block;
+    margin-top: 10px;
+}

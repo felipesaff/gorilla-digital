@@ -1,0 +1,23 @@
+.works-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.works-top button{
+    /* width: 120px; */
+    background-color: transparent;
+    height: 60px;
+    text-decoration: none;
+    color: #00bfe0;
+    border: 2px solid #00bfe0;
+    padding: 15px 20px;
+    transition: ease 200ms;
+    cursor: pointer;
+}
+.works-top button:hover{
+    box-shadow: 0 0 15px #00bfe0;
+}
+.gallery span{
+    overflow: hidden;
+    max-height: 300px;
+}

@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 20px;
+}
+header nav{
+    display: flex;
+    align-items: flex-end;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    transition: ease 200ms;
+}
+nav a:hover{
+    border-bottom: 2px solid #00bfe0;
+    margin-bottom: 8px;
+    color: #ddd;
+}
