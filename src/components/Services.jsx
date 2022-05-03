@@ -3,7 +3,7 @@ import '../assets/css/services.css'
 
 export default () => {
     return(
-        <div className="titles container">
+        <div className="titles container" id="services">
             <span>
                 <h1>Services.</h1>
             </span>

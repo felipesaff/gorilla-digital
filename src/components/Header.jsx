@@ -5,12 +5,12 @@ export default props => {
         <header>
             {props.children}
             <nav>
-                <a href="">Home</a>
-                <a href="">Services</a>
-                <a href="">Works</a>
-                <a href="">About</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#works">Works</a>
+                <a href="#about">About</a>
+                <a href="#blog">Blog</a>
+                <a href="#contact">Contact</a>
             </nav>
         </header>
     )

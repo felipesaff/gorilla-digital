@@ -1,20 +1,18 @@
 import React from "react";
-import '../assets/css/works.css'
 
 export default props => {
-    return (
-        <div id="works">
+    return(
+        <div id="about">
             <div className="works-top container">
                 <div className="titles">
                     <span>
-                        <h1>Works.</h1>
+                        <h1>About.</h1>
                     </span>
-                    <p>THINGS WE'VE MADE</p>
+                    <p>WE ARE MORE THAN DIGITAL AGENCY</p>
                 </div>
-                <button>VIEW ALL</button>
             </div>
-            <div className="gallery">
-                {props.children}
+            <div className="grid">
+
             </div>
         </div>
     )

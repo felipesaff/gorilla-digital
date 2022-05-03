@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
 }
 .black{
   background-color: #070707;
@@ -23,13 +24,13 @@
 .titles>span>h1{
   color: #ddd;
   font-size: 32px;
-  padding: 10px 50px;
+  padding: 50px  0 10px 50px;
 }
 .titles>span::before{
   content: "";
   width: 40px;
   height: 2px;
-  margin: 30px 30px 0 0;
+  margin: 75px 30px 0 0;
   background: #00bfe0;
   position: absolute;
   display: block;

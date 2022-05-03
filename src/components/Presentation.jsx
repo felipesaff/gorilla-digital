@@ -4,7 +4,7 @@ import '../assets/css/presentation.css'
 export default () => {
     return (
         <div className="background">
-            <div className="presentation container">
+            <div className="presentation container" id="home">
                 <div className="pres-top">
                     <p>CREATIVE MIND, CREATIVE WORKS</p>
                     <h1>We are digital agency.</h1>
